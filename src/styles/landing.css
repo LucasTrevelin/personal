@@ -7,7 +7,7 @@
 .Avatar {
     background : radial-gradient(circle, rgba(0,0,0,0.7217087518601191) 0%, rgba(0,0,0,0.8701681356136204) 46%, rgba(0,0,0,1) 100%);
     width : 100vw;
-    height:45vh;
+    height:35vh;
     text-align : center;
     position : relative;
     top :0;
@@ -67,7 +67,7 @@
 .backgProjects {
     margin: 50px auto;
     height: 500px;
-    width: 2000px;
+    width: 1500px;
     border-radius: 60px;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,6 @@
 
 .introduction{
     color: white;
-    padding: 7vh;
 }
 
 
@@ -91,4 +90,24 @@
 
 .Ref {
     color: white;
+}
+
+.footer {
+    background:black;
+    position:sticky; 
+    height:50px;
+    width:100%;
+    bottom:0;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.footer .button1, .footer .button2, .footer .button3, .footer .button4 {
+    color:white;
+    background-color: darkgreen;
+}
+
+.footer .button1 :hover, .footer .button2 :hover, .footer .button3 :hover, .footer .button4 :hover{
+    color:yellow;
 }
